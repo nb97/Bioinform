@@ -8,6 +8,7 @@
 #' A data frame with no NAs and all values squared.
 #' @export
 #'
+#'@rdname df numeric
 #' @examples
 #' sqrt_function <- function(data, na.rm = TRUE, verbose = TRUE) {
 #'if (verbose) message("Finding SQRT...")
@@ -20,4 +21,15 @@
 
 
 #Function:
+sqrt_fun <- function(x) {
+  sqrt(x)
+}
+
+sqrt_fun(c(1,4,6,8))
+
+#Dependencies
+#operates on lists
+
+
+
 
