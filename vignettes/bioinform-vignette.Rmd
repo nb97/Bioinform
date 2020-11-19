@@ -1,0 +1,45 @@
+---
+title: "bioinform"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{bioinform}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The goal of 'bioinform' is to provide funcitons and equations that are applicable to biological and ecological datasets. 
+
+## Installation
+You can install the development version from [Github] 
+https://github.com/nb97/bioinform 
+
+```{r setup}
+library(devtools)
+library(bioinform)
+```
+
+## Example
+This is how Cq_vlaue works:
+```{r}
+Cq_value <- function(x){
+  Cq_avg <- (22.245) + ((-3.2048)*(x))
+  return(Cq_avg)
+}
+
+Cq_value(6)
+Cq_value(7)
+Cq_value(c(10,12,0,18,21)) 
+```
+## Citation 
+run this command to get information on how to cite this package. 
+```{r}
+citation("bioinform")
+```
+

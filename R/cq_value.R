@@ -1,15 +1,15 @@
 #' Finding quantificaiton vlaue for qPCR
 #'
-#' @param x Numeric intergers
+#' @param x Numeric vector
 #'
 #' @return
 #' Numeric intergers
 #' @export
 #'
-#'@rdname numeric intergers
+#'@rdname DNAanalysis
 #' @examples
-#'> Cq_value(5)
-#'[1] 6.221
+#'Cq_value(5)
+#'
 
 
 #Function:
@@ -20,8 +20,7 @@ Cq_value <- function(x){
 
 Cq_value(25)
 
-#Dependencies
-#operates on lists
+
 
 
 

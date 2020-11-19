@@ -1,14 +1,13 @@
 Package: bioinform
-Title: Takes square root of numeric columns
+Title: TApplies functions to solve for numeric values of interest to biological and ecological datasets. 
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "Natalie",
-           family = "Benoit",
-           role = c("aut", "cre"),
-           email = "nataliepbenoit@gmail.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Authors@R: person(given = "Natalie",
+             family = "Benoit",
+             role = c("aut", "cre"),
+             email = "nataliepbenoit@gmail.com")
+Description: This package contains functiosn to be applied to numeric intergers. It is very useful when applied to biological datasets. 
 License: MIT + file LICENSE
+URL: https://github.com/nb97/bioinform
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -21,3 +20,4 @@ Suggests:
 Imports: 
     purrr,
     magrittr
+VignetteBuilder: knitr
