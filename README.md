@@ -47,8 +47,8 @@ Therefore, it could also be helpful to import data using:
 #readxl::read_xls()
 ```
 
-#NOTE: The purrr package is imported with this dataset to give ability
-to read lists in addition to numeric vectors.
+NOTE: The purrr package is imported with this dataset to give ability to
+read lists in addition to numeric vectors.
 
 # Vignette
 

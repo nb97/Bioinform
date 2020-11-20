@@ -50,7 +50,7 @@ This is best applied to values pulled from excel or csv fiies. Therefore, it cou
 #read.csv()
 #readxl::read_xls()
 ```
-#NOTE: The purrr package is imported with this dataset to give ability to read lists in addition to numeric vectors. 
+NOTE: The purrr package is imported with this dataset to give ability to read lists in addition to numeric vectors. 
 
 # Vignette 
 You can access more information about bioinform package through the vignette. Use this command for istallation:
