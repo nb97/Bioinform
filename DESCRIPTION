@@ -1,5 +1,5 @@
 Package: bioinform
-Title: TApplies functions to solve for numeric values of interest to biological and ecological datasets. 
+Title: Applies functions to solve for numeric values of interest to biological and ecological datasets. 
 Version: 0.0.0.9000
 Authors@R: person(given = "Natalie",
              family = "Benoit",
