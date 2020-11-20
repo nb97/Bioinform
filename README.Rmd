@@ -28,7 +28,7 @@ You can install the released version of bioinform from [CRAN](https://CRAN.R-pro
 devtools::install_github("nb97/bioinform")
 ```
 
-## Example
+## Example and usage
 
 This is a basic example which shows you how to solve a common problem:
 
@@ -55,8 +55,8 @@ This is best applied to values pulled from excel or csv fiies. Therefore, it cou
 # Vignette 
 You can access more information about bioinform package through the vignette. Use this command for istallation:
 ```{r}
-install.packages("devtools")
-devtools::install_github("nb97/bioinform", build_vignettes = TRUE)
+#install.packages("devtools")
+#devtools::install_github("nb97/bioinform", build_vignettes = TRUE)
 ```
 
 And to read the vignette:
