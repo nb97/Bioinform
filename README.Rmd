@@ -1,0 +1,74 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# bioinform
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of bioinform, short for "Bioinformatics," is to provide functions that can be applied to biological and ecological datasets. 
+
+## Installation
+
+You can install the released version of bioinform from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+devtools::install_github("nb97/bioinform")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(devtools)
+library(bioinform)
+
+Cq_value <- function(x){
+  Cq_avg <- (22.245) + ((-3.2048)*(x))
+  return(Cq_avg)
+}
+
+Cq_value(6)
+```
+
+# For inputting data
+This is best applied to values pulled from excel or csv fiies. Therefore, it could also be helpful to import data using:
+```{r cars}
+#read.csv()
+#readxl::read_xls()
+```
+#NOTE: The purrr package is imported with this dataset to give ability to read lists in addition to numeric vectors. 
+
+# Vignette 
+You can access more information about bioinform package through the vignette. Use this command for istallation:
+```{r}
+install.packages("devtools")
+devtools::install_github("nb97/bioinform", build_vignettes = TRUE)
+```
+
+And to read the vignette:
+```{r}
+library(bioinform)
+browseVignettes("bioinform")
+```
+
+
+# Citation 
+```{r}
+citation("bioinform")
+```
+## Code of Conduct
+A code of conduct is included. It is a pledge that conributors agree upon. Guidelines are layed out within the document. 
