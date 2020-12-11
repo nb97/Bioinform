@@ -45,6 +45,18 @@ Cq_value <- function(x){
 Cq_value(30)
 
 ```
+# Tests
+This test shows that the expected value (6.221) by manually solving for Cq with x=5 would equal the same as usign Cq_value function.
+
+# Equation 
+To find the Cq one must solve for x in the following equation: 
+x = (Cq - 22.245) / -3.4564	
+
+-22.245 and -3.45 are derived from the average Cq on a standard curve. These standards are at a serial dilution starting at 10ng/uL and decreasing 10x with each standard. The second standard is diluted to 1ng/uL, the third to 0.1ng/uL, forth to 0.01ng/Ul, etc.
+
+These standards were developed by targeting the CO1 gene is Chinook Salmon (Oncorhynchus tshawytscha). 
+
+This equaiton is applicable to Natalie Benoit's M.Sc. however it can be maniupated and applied to similar studies with slight modification to the equation. 
 
 # For inputting data
 This is best applied to values pulled from excel or csv fiies. Therefore, it could also be helpful to import data using:
