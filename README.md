@@ -12,9 +12,6 @@ functions that can be applied to biological and ecological datasets.
 
 ## Installation
 
-You can install the released version of bioinform from
-[CRAN](https://CRAN.R-project.org) with:
-
 ``` r
 devtools::install_github("nb97/bioinform")
 ```
