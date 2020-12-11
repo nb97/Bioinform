@@ -2,7 +2,7 @@
 % Please edit documentation in R/cq_value.R
 \name{Cq_value}
 \alias{Cq_value}
-\title{Finding quantificaiton vlaue for qPCR}
+\title{Finding quantificaiton value for qPCR}
 \usage{
 Cq_value(x)
 }
@@ -10,12 +10,13 @@ Cq_value(x)
 \item{x}{Numeric vector}
 }
 \value{
-Numeric intergers
+A numeric value that shows how many cycles it takes for the DNA to amplify when ran in qPCR.
+This can be used to quantify the total amount of DNA.
 }
 \description{
-Finding quantificaiton vlaue for qPCR
+Finding quantificaiton value for qPCR
 }
 \examples{
-Cq_value(5)
-
+bioinform::Cq_value(5)
+?Cq_value
 }
