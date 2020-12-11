@@ -25,7 +25,7 @@ library(devtools)
 library(bioinform)
 ```
 
-## Example
+## Example?
 This is how Cq_value works:
 ```{r}
 Cq_value <- function(x){
