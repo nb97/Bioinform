@@ -3,13 +3,13 @@
 #' @param x Numeric vector
 #'
 #' @return
-#' A numeric value that shows how many cycles it takes for the DNA to amplify when ran in qPCR. This can be used to quantify the total amount of DNA.
+#' A numeric value that shows how many cycles it takes for the DNA to amplify when ran in qPCR.
+#' This can be used to quantify the total amount of DNA.
 #' @export
 #'
 #'@rdname DNAanalysis
 #' @examples
-#'Cq_value(5)
-#'
+#'bioinform::Cq_value(5)
 
 
 #Function:
