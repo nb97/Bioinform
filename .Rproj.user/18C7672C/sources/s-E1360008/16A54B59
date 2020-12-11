@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1607657742096.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "16A54B59",
+    "lastKnownWriteTime" : 1607655284,
+    "last_content_update" : 1607655284,
+    "path" : "~/Desktop/bioinform/R/cq_value.R",
+    "project_path" : "R/cq_value.R",
+    "properties" : {
+        "cursorPosition" : "5,1",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
