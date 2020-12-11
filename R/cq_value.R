@@ -10,6 +10,7 @@
 #'@rdname DNAanalysis
 #' @examples
 #'bioinform::Cq_value(5)
+#'?Cq_value
 
 
 #Function:
